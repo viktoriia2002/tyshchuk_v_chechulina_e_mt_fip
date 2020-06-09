@@ -1,0 +1,503 @@
+body {
+margin: 0 ;
+padding: 0;
+}
+
+.hidden{
+		display: none;
+	}
+
+	#container{
+		width: 1280px;
+		margin: 0 auto;
+	}
+
+  #mainHeader{
+      background-color: #201D1E;
+  		height: 60px;
+  		display: flex;
+  		flex-direction: row;
+      justify-content: space-between;
+    }
+    #mainNav{
+  display: flex;
+  flex-direction: row;
+}
+
+#mainNav ul
+	{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 30px;
+
+	}
+
+  #mainNav ul li {
+    display: inline;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+
+
+}
+
+  #mainNav ul li a
+{
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+#mainNav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+#signupNav ul{
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+#signupNav ul li{
+  display: inline;
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
+}
+
+#signupNav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+#signupNav ul li a:hover {
+  text-decoration: underline;
+}
+
+.original:first-letter{
+  font-size: 26px;
+  font-weight: 400;
+  color: #cfa868;
+}
+
+.banner{
+  height: 540px;
+  background: url(../images/banner.jpg) no-repeat bottom;
+  opacity: 0.8;
+  margin: 0 auto;
+}
+
+#logo{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.banner h2{
+  margin-top: 50px;
+  text-align: center;
+  font-size:45px;
+  color:#fff;
+  font-family: 'Roboto Slab', serif;
+  font-weight:700;
+}
+
+.delimiter{
+  height: 10px;
+  background-color: #cfa868;
+}
+
+.mainContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent h2{
+  font-size: 30px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.announcment{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news{
+  margin-left: 250px;
+margin-bottom: 60px;
+}
+
+.text{
+  margin-left: 180px;
+  margin-right: 250px;
+  margin-top: 90px;
+}
+
+.attention{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 4;
+}
+
+.magazine{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+.signupContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.submit{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#mainFooter{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #201D1E;
+  height: 280px;
+}
+
+.logoFooter img{
+  margin-top: 20px;
+}
+
+.socialMedia1{
+  margin-top: 100px;
+  margin-left: 360px;
+  display: flex;
+  flex-direction: row;
+}
+
+.socialMedia2{
+  margin-top: 100px;
+  margin-right: 360px;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#facebook, #tweeter, #instagram, #youtube{
+  width: 60px;
+}
+
+
+/*about us*/
+
+.banner h3{
+  font-size: 27px;
+  margin-top: 50px;
+  line-height: 1.2;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color:#fff;
+  font-family: 'Roboto Slab', serif;
+  font-weight:500;
+}
+
+.aboutContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutContent h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.brewery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info1{
+  margin-top: 50px;
+  margin-left: 160px;
+margin-bottom: 50px;
+}
+
+.area1{
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-left:150px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
+}
+
+.beer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info2{
+  margin-top: 50px;
+  margin-left: 160px;
+margin-bottom: 50px;
+}
+
+.area2{
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-left:150px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
+}
+
+.careers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info3{
+  margin-top: 50px;
+  margin-left: 160px;
+margin-bottom: 50px;
+}
+
+.area3{
+  margin-top: 100px;
+  margin-right: 250px;
+  margin-left:150px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+
+}
+
+
+/*products*/
+
+.productsContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.productsContent h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.content_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.content_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.thebeers{
+  margin-left: 250px;
+}
+
+.thespirits{
+  margin-right: 250px;
+}
+
+.freshness{
+  margin-left: 250px;
+}
+
+.cocktails{
+  margin-right: 250px;
+}
+
+.cup1:hover{
+  webkit-transform: scale(1.125);
+  ms-transform: scale(1.125);
+  transform: scale(1.125);
+}
+
+.content_1 p{
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+.content_2 p{
+  font-size: 18px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+
+/*advert*/
+
+.advertContent{
+  display: flex;
+  flex-direction: column;
+}
+
+.advertContent h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.adverts{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.june{
+  margin-bottom: 30px;
+}
+
+.june p{
+  margin-left: 350px;
+  font-size: 13px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.july{
+  margin-bottom: 30px;
+}
+
+.july p{
+  margin-left: 350px;
+  font-size: 13px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.august{
+  margin-bottom: 30px;
+}
+
+.august p{
+  margin-left: 350px;
+  font-size: 13px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.september{
+  margin-bottom: 30px;
+}
+
+.september p{
+  margin-left: 350px;
+  font-size: 13px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+/*contact*/
+
+.contactContent{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.contactContent h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.slogan p{
+  margin-top: 10px;
+  line-height: 1.2;
+  margin-left: 150px;
+}
+
+.contact_form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information p{
+  line-height: 1.2;
+  margin-left: 150px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+
+.contacts{
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contacts form{
+  margin-bottom: 10px;
+}
+
+@keyframes tagline {
+0% {text-align: center;
+
+}
+33% {
+	margin-left:  300px;
+	color: #000000;
+}
+
+66% {
+	text-align: center;
+	color: #ffffff;
+}
+
+100% {
+	margin-right:  300px;
+	color: #000000;
+}
+}
+
+.tagline {
+animation-name: tagline;
+animation-duration: 5s;
+animation-iteration-count: 6;
+animation-direction: alternate;
+}
